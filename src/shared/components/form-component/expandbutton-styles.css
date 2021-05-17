@@ -1,0 +1,20 @@
+.expand-root {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  min-width: 40px !important;
+  margin: 5px !important;
+}
+
+/* .expand-root:hover .expand-content{
+    display: block;
+  } */
+.expand-root:hover .expand-content {
+  visibility: visible;
+  width: auto;
+}
+.expand-root .expand-content {
+  visibility: hidden;
+  width: 0px;
+}
